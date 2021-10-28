@@ -1,0 +1,7 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+lerna exec npm test
+npm run lint
+npm run format
+# lerna exec npm run lint-staged
