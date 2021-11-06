@@ -8,6 +8,7 @@
   "scripts": {
     "dev": "cross-env NODE_ENV=development rollup -c --watch",
     "build": "cross-env NODE_ENV=production rollup -c",
+    "test:cov": "jest --coverage",
     "static": "http-server .",
     "test": "jest"
   },

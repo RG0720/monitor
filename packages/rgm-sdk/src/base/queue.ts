@@ -1,4 +1,4 @@
-import { EleType } from 'src/decleration';
+import { EleType } from '../decleration';
 
 class Queue<T> {
   queue: EleType<T>;

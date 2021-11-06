@@ -1,5 +1,5 @@
 import { Controller, Get } from '@nestjs/common';
-import { Hello } from '@rg0720/types';
+import { Hello } from '@rg0720/rgm-types';
 import { AppService } from './app.service';
 
 @Controller()
