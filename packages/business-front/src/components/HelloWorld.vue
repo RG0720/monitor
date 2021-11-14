@@ -7,6 +7,7 @@ const count = ref(0)
 </script>
 
 <template>
+  <a-button type="primary">Primary</a-button>
   <h1>{{ msg }}</h1>
 
   <p>
